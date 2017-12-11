@@ -1,0 +1,81 @@
+:root {
+--hintergrund: #0A4E72; 	/* Main Primary color */
+--linkfarbe: #388EBD; 
+--akzentfarbe: #136D9E; 
+--dunkel: #03344E;
+--schwarz: #010F16;
+}
+
+div.headline {
+	width: 300px;
+	padding: 10px;
+	margin: 10px;
+	border: 2px solid var(--akzentfarbe);
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	background-color: var(--schwarz);
+}
+
+div.bio {
+	max-width: 750px;
+	margin: 20px;
+	/*width: 500px;*/
+}
+
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
+
+div.linktable {
+    
+}
+div.linktable > a {
+	text-decoration: underline;	
+}
+
+div.linklist {
+    
+}
+div.linklist > a {
+	text-decoration: underline;
+}
+
+div.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	position: center;
+}
+
+
+body {
+	position: relative;
+	background-color: var(--schwarz);
+	text-align: center;
+	padding-bottom: 60px;
+}
+h1 {
+	color: var(--akzentfarbe);
+}
+h2 {
+	color: var(--akzentfarbe);
+}
+h3 {
+	color: var(--akzentfarbe);
+	font-size: large;
+}
+p {
+	color: var(--akzentfarbe);
+}
+a {
+	color: var(--linkfarbe);
+}
